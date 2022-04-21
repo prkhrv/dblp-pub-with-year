@@ -15,7 +15,7 @@ def query_db(pub_string=STRINGS_FOR_TEST):
     :return: BeautifulSoup: A BeautifulSoup Object
     '''
     resp = requests.get(PUB_SEARCH_URL, params={'q':pub_string})
-    return BeautifulSoup(resp.content)
+    return BeautifulSoup(resp.content,features="lxml")
 
 def get_pub_data(pub):
     '''
