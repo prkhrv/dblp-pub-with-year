@@ -5,7 +5,7 @@ A modified code to download year data from dblp
 
 1. Clone this repo
 ```
-git clone git@github.com:prkhrv/dblp-pub-with-year.git
+git clone https://github.com/prkhrv/dblp-pub-with-year.git
 ```
 *You can also just download the zip file*
 
